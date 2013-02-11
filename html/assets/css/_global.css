@@ -1,0 +1,110 @@
+/*
+=================================================================================================================================
+**
+** GLOBAL CSS
+**
+** SCOPE: 		GLOBAL
+** REVISION:	0.0
+** DATE:		10/2/12
+** AUTHORS:		Kris Sarratt (kris@smashbrand.com)
+** NOTES:		This file links to all CSS files, on deployment though all stylesheets will be inlined in to a single global.css
+=================================================================================================================================
+*/
+
+/* STRUCTURE STYLES */
+@import url(typography.css);
+@import url(layout-header.css);
+@import url(layout-footer.css);
+@import url(layout-search.css);
+
+/* COMMON CSS STYLES */
+
+body {
+background-color: #eeeeee;
+}
+
+ul, li {
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+a {
+color: #0056a2;
+}
+
+.clear {
+height:0px; 
+overflow:hidden; 
+display:block; 
+clear:both;
+visibility:hidden;
+}
+
+.center {
+text-align: center;
+}
+
+.text-align-right {
+text-align: right;
+float: right;
+}
+
+/*-- Content
+======================================*/
+.content-area {
+min-height: 400px;
+}
+
+/*-- Forms
+======================================*/
+.chzn-container-multi .chzn-choices {
+    border-radius:3px 3px 3px 3px;
+    color:#555555;
+    -moz-transition:border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    background-color:#FFFFFF;
+    border:1px solid #CCCCCC;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;    
+/*
+    display:inline-block;
+    font-size:14px;
+    height:20px;
+    line-height:20px;
+    margin-bottom:9px;
+    padding:4px 6px;
+*/
+}
+
+/*-- Media Queries
+======================================*/
+
+@media (min-width: 1200px) {
+	.container-fluid {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1199px) {
+	.container-fluid {
+	padding: 0px 10px;
+	}
+}
+
+@media (max-width: 960px) {
+	.container-fluid {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0px;	
+	}
+	header, footer {
+	width: auto !important;
+	}
+	body {
+	padding-left:0px;
+	padding-right:0px;
+	}	
+}
+
+.paddingT0px{padding-top:0px !important}.paddingT5px{padding-top:5px !important}.paddingT10px{padding-top:10px !important}.paddingT15px{padding-top:15px !important}.paddingT20px{padding-top:20px !important}.paddingT25px{padding-top:25px !important}.paddingR0px{padding-right:0px !important}.paddingR5px{padding-right:5px !important}.paddingR10px{padding-right:10px !important}.paddingR15px{padding-right:15px !important}.paddingR20px{padding-right:20px !important}.paddingR25px{padding-right:25px !important}.paddingB0px{padding-bottom:0px !important}.paddingB5px{padding-bottom:5px !important}.paddingB10px{padding-bottom:10px !important}.paddingB15px{padding-bottom:15px !important}.paddingB20px{padding-bottom:20px !important}.paddingB25px{padding-bottom:25px !important}.paddingL0px{padding-left:0px !important}.paddingL5px{padding-left:5px !important}.paddingL10px{padding-left:10px !important}.paddingL15px{padding-left:15px !important}.paddingL20px{padding-left:20px !important}.paddingL25px{padding-left:25px !important}.marginT0px{margin-top:0px !important}.marginT5px{margin-top:5px !important}.marginT10px{margin-top:10px !important}.marginT15px{margin-top:15px !important}.marginT20px{margin-top:20px !important}.marginT25px{margin-top:25px !important}.marginR0px{margin-right:0px !important}.marginR5px{margin-right:5px !important}.marginR10px{margin-right:10px !important}.marginR15px{margin-right:15px !important}.marginR20px{margin-right:20px !important}.marginR25px{margin-right:25px !important}.marginB0px{margin-bottom:0px !important}.marginB5px{margin-bottom:5px !important}.marginB10px{margin-bottom:10px !important}.marginB15px{margin-bottom:15px !important}.marginB20px{margin-bottom:20px !important}.marginB25px{margin-bottom:25px !important}.marginL0px{margin-left:0px !important}.marginL5px{margin-left:5px !important}.marginL10px{margin-left:10px !important}.marginL15px{margin-left:15px !important}.marginL20px{margin-left:20px !important}.marginL25px{margin-left:25px !important}

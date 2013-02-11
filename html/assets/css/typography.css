@@ -1,0 +1,185 @@
+* {
+font-family: Arial, sans-serif;
+}
+
+h1 {
+
+}
+
+	h1.index-title {
+	color: #333333;
+	font-size:36px;
+	padding: 15px 0;
+	}
+	
+	h1.index-title span {
+	color: #666666;
+	font-weight: 100;
+	font-style: italic;
+	}
+	
+	h1.login {
+	padding: 20px 0 100px;
+	}
+	
+h2 {
+color: #0056a2;
+font-weight: bold;
+font-size:20px;
+padding: 0 0 10px;
+margin: 0px;
+}
+
+	.filters_title h2 {
+	padding: 0px;
+	}
+	
+	.detail_column h2 {
+	padding: 0px;
+	margin: 0px;
+	}
+	
+	.login-info-title h2 {
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+h3 {
+color: #333333;
+font-weight: bold;
+font-size:16px;
+padding: 0 0 5px;
+margin: 0px;
+}
+
+	.login-info-box-left h3, .login-info-box-right h3 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #0056a2;
+	}
+
+h4 {
+
+}
+
+	.search_results_listing h4 {
+	color: #0056a2;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin: 15px 0 0 0;
+	}
+	
+p {
+
+}
+
+	.search_results_listing_info p, .detail_column_info p {
+	font-size:11px;
+	line-height: 1.2em;
+	padding: 0 15px;
+	margin: 0px;
+	}
+	
+	.search_results_listing_info_business p, .detail_column_business p {
+	padding-left: 0px;
+	}
+	
+	p.search_results_filter_options_showing {
+	font-size:12px;
+	color: #333333;
+	padding: 10px 30px 0 20px;
+	}
+	
+	.detail_column_growth p {
+	padding-right: 0px;
+	}
+	
+	.detail_column_locations_count p {
+	font-size:12px !important;
+	margin: 0 0 5px !important;
+	}
+	
+	p.detail_column_URL {
+	margin: 15px 0 0 0;
+	}
+	
+	p.detail_column_URL a {
+	font-size:14px;
+	}
+	
+	.login-box p {
+	font-size:24px;
+	color: white;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+	}
+	
+	.login-box p span {
+	font-weight: 100;
+	line-height: 1.5em;
+	}
+	
+	p.login-help, p.login-help a {
+	color: #333333;
+	font-weight: bold;
+	font-size:14px;
+	}
+	
+	p.login-help, p.login-call {
+	margin: 0 auto;
+	width: 600px;
+	border-bottom:1px solid #999999;
+	padding: 0 0 15px 0;
+	}
+	
+	p.login-call {
+	border-top: 1px solid white;
+	padding: 15px 0 30px 0;
+	border-bottom:0px;
+	color: #666666;
+	}
+	
+	.login-info-title p {
+	font-size:14px;
+	color: #666666;
+	padding: 11px 0 0 0;
+	}
+	
+	.login-info-title p b {
+	color: #333333;
+	padding: 15px 0 0 0;
+	}
+
+a {
+
+}
+
+	a.filters_clear {
+	float: right;
+	color: #0056a2;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 12px 15px 0 0;
+	}
+	
+	.search_box a {
+	text-decoration: none;
+	}
+
+/*-- Myriad Bold Cond Italic
+==================================*/
+@font-face {
+    font-family: 'MyriadProBoldCondensedItalic';
+    src: url('font/myriad_boldcondit/myriadpro-boldcondit-webfont.eot');
+    src: url('font/myriad_boldcondit/myriadpro-boldcondit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/myriad_boldcondit/myriadpro-boldcondit-webfont.woff') format('woff'),
+         url('font/myriad_boldcondit/myriadpro-boldcondit-webfont.ttf') format('truetype'),
+         url('font/myriad_boldcondit/myriadpro-boldcondit-webfont.svg#MyriadProBoldCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+	

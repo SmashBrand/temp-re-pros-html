@@ -1,0 +1,123 @@
+/*-- Connected Computers
+======================================*/
+.connected-computers {
+text-align: left;
+padding: 0 0 20px;
+}
+
+.connected-computers table {
+background-color: white;
+}
+
+.connected-computers h1 {
+text-align: left;
+padding: 0 0 15px;
+}
+
+.connected-computers table h2, .connected-computers table h3 {
+font-size:16px;
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+color: #333333;
+line-height: 1.5em;
+}
+
+.connected-computers table h3 {
+font-size:18px;
+}
+
+/*-- Login Alert
+======================================*/
+.login-alert {
+background-color: white;
+border:1px solid #0056A2;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+margin:25px auto 0px;
+padding:10px 30px 10px;
+width:540px;
+text-align: left;
+}
+
+/*-- Login Form
+======================================*/
+
+.login-box {
+background-color: #0056a2;
+width: 600px;
+margin: 0 auto;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+padding: 0 0 20px 0;
+margin-bottom: 20px;
+}
+
+.login-box-logo {
+margin-top: -87px;
+}
+
+.login-box input[type="text"] {
+color:#666666;
+font-size:16px;
+font-weight:bold;
+padding:8px 0 10px 16px;
+}
+
+.login-box-submit {
+padding-left: 40px;
+padding-right: 40px;
+margin: 10px 0 0 0;
+}
+
+.login-help-options {
+padding: 0 0 150px;
+}
+
+/*-- Login Info
+======================================*/
+
+.login-info {
+padding: 30px 0 0 0;
+}
+
+.login-info-title {
+float: left;
+width: 100%;
+border-bottom: 1px solid #999999;
+}
+
+.login-info-box-container {
+border-top: 1px solid white;
+float: left;
+}
+
+.login-info-box-left, .login-info-box-right {
+text-align: left;
+}
+
+.login-info-box-left {
+float: left;
+width:49%;
+}
+
+.login-info-box-left-padding {
+padding: 10px 0 0 20px;
+}
+
+.login-info-box-right {
+float: right;
+width: 49%;
+border-left: 1px solid #999999;
+}
+
+.login-info-box-right-padding {
+padding: 10px 0 0 20px;
+}
+
+.login-info-table-custom span {
+text-align: right;
+display: block;
+}
