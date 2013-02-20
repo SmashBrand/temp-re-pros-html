@@ -9,6 +9,7 @@
 <link href="assets/twitter-bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 <link href="assets/css/_global.css" rel="stylesheet">
 <link href="assets/css/page-login.css" rel="stylesheet">
+<link href="assets/css/color/purple.css" rel="stylesheet">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -47,12 +48,12 @@
 			
 			<div class="login-box center">
             
-            <img class="login-box-logo" src="assets/images/login/login.png" alt="login">
+            <img class="login-box-logo" src="assets/images/login/login-purple.png" alt="login">
 			
 				<p><span>Sign in to</span><br>
 				Retail Space Users Directory</p>
 				
-				<div class="alert alert-error span11 unhide">
+				<div class="alert alert-error span11 unhide" style="display:none;">
 					Sorry, your subscription is expired.<br/>
 					Please call 1-800-421-3483 to activate.
 				</div>

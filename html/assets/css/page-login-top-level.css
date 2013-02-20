@@ -1,0 +1,240 @@
+.content-area.login {
+	padding-top: 80px;
+}
+
+h1.login {
+    padding: 20px 0 10px;
+}
+
+/*-- Choose Directory
+======================================*/
+
+.directory-content .span3 {
+	text-align: center;
+}
+
+.choose-directory-content {
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 	
+	background-image: url(../images/login/content-bg.png);
+	background-repeat: repeat-x;
+	min-height: 301px;
+}
+
+.orange .choose-directory-content {
+	background-color: #e47900;
+}
+
+.maroon .choose-directory-content {
+	background-color: #600400;
+}
+
+.blue .choose-directory-content {
+	background-color: #0056a2;
+}
+
+.purple .choose-directory-content {
+	background-color: #38196f;
+}
+
+.choose-directory-content .title {
+	text-align: left;
+	padding: 25px 20px 0;
+	height: 95px;
+}
+
+.choose-directory-content .title h3 {
+	font-size:18px;
+	font-weight: bold;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.2em;	
+}
+
+.choose-directory-content .title h4 {
+	font-size: 23px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 1.0em;
+	padding: 0px;
+	margin: 0px;
+}
+
+.choose-directory-content .content {
+	height: 97px;
+	padding: 20px 30px 0;
+	line-height: 1.4em;
+}
+
+.choose-directory-content .content p {
+	font-style: italic;
+	font-size: 14px;
+	opacity: 0.75;
+	color: white;
+}
+
+.choose-directory-content a.enter {
+	height: 41px;
+	padding: 23px 0 0;
+	display: block;
+}
+
+.choose-directory-content a.enter {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.choose-directory-content a.enter:hover {
+	background-color: black;
+	border-radius: 0px 0px 5px 5px; 
+	-moz-border-radius: 0px 0px 5px 5px; 
+	-webkit-border-radius: 0px 0px 5px 5px; 
+}
+
+.choose-directory-content a.enter:hover {
+	color: white;
+}
+
+.login-dont-have-account {
+	padding: 25px 0 45px;
+}
+
+.login-dont-have-account p {
+	color: #666666;
+	font-size:14px;
+}
+
+/*-- Connected Computers
+======================================*/
+.connected-computers {
+text-align: left;
+padding: 0 0 20px;
+}
+
+.connected-computers table {
+background-color: white;
+}
+
+.connected-computers h1 {
+text-align: left;
+padding: 0 0 15px;
+}
+
+.connected-computers table h2, .connected-computers table h3 {
+font-size:16px;
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+color: #333333;
+line-height: 1.5em;
+}
+
+.connected-computers table h3 {
+font-size:18px;
+}
+
+.choose-directory-shadow {
+	width: 100%;
+	padding: 20px 0;
+}
+
+/*-- Login Alert
+======================================*/
+.login-alert {
+background-color: white;
+border:1px solid #0056A2;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+margin:25px auto 0px;
+padding:10px 30px 10px;
+width:540px;
+text-align: left;
+}
+
+/*-- Login Form
+======================================*/
+
+.login-box {
+background-color: #e6e6e6;
+border:3px solid #dddddd;
+margin: 0 auto 50px;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+padding: 30px 25px 15px;
+width: 550px;
+text-align: left;
+}
+
+.login-box input[type="text"] {
+color:#666666;
+font-size:16px;
+font-weight:bold;
+padding:8px 0 10px 16px;
+}
+
+.login-box-submit {
+padding-left: 40px;
+padding-right: 40px;
+margin: 10px 0 0 0;
+}
+
+.login-help-options {
+padding: 0 0 150px;
+}
+
+.input-left {
+	float: left;
+	width: 245px;
+}
+
+.input-left input {
+	margin: 0 0 15px;
+}
+
+.input-left .submit {
+	float: left;	
+}
+
+.forgot-password {
+	float: left;
+	color: #3b86c4;
+	font-size:15px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 9px 0 0 15px;
+}
+
+.input-right {
+	width: 265px;
+	float: right;
+}
+
+	.input-right h3 {
+		color: #372f2b;
+		font-size: 28px;
+		font-weight: bold;
+		line-height: 1.0em;
+		padding: 0 0 8px;
+	}
+	
+	.input-right p {
+		color: #372f2b;
+		font-size: 15px;
+		font-weight: normal;
+		padding: 0 0 5px;
+	}
+	
+/*-- When only 3 divs show up, put margin-left:150px --*/
+.center-3 .span3.first {
+	margin-left: 150px;
+}
+
+/*-- When only 2 divs show up, put margin-left:295px --*/
+.center-2 .span3.first {
+	margin-left: 295px;
+}	
