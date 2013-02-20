@@ -2,7 +2,7 @@
 
 	<div class="container-fluid">
 	
-		<a class="header-logo" href="index.php">Homepage logo</a>
+		<a class="header-logo" href="index.php"><img src="assets/images/header/home-logo.png" alt="home-logo"></a>
 		
 		<div class="header-directory-options">
 		
@@ -12,12 +12,8 @@
 								
 				<span class="dropdown">
 				  
-  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Real Estate Pros <img src="assets/images/header/drop-down.png" alt="drop-down"></a>
+  					<p>Retail &amp; Restaurant</p>
 					  
-					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-						<li><a tabindex="-1" href="#">Retail Space Users</a></li>
-					</ul>
-				  
 				</span><!-- .dropdown -->									
 			
 			</span><!-- .header-directory-current -->
